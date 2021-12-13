@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Wise</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="loading" /></div>
+      </div>
+      <!-- end loader --> 
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-11 col-lg-9 col-md-9 col-sm-9">
+                  <div class="full">
+                     <div class="center-desk">
+                        <div class="logo"> 
+                           <a href="index.html">
+                              <img src="images/logofno.png" alt="logo" width=150px height="">
+                           </a> 
+                        </div>
+                        <nav class="main-menu">
+                           <ul class="menu-area-main ul">
+                              <li> <a href="index.html">Trang Chủ</a> </li>
+                              <li> <a href="sanpham.html">Sản Phẩm</a> </li>
+                              <li> <a href="veChungToi.html">Về Cửa Hàng</a> </li>
+                              <li> <a href="lienhe.html">Liên Hệ</a> </li>
+                              <li class="active"> <a href="giohang.html">Giỏ Hàng</a> </li>
+                           </ul>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+         <!-- end header inner --> 
+      </header>
+      <section class="slider_section">
+         <div id="myCarousel" class="carousel slide banner-main" data-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img class="first-slide" src="images/bannerfno.png" alt="First slide" width="100%">
+                  <div class="container">
+                     <div class="carousel-caption relative">    
+                     </div>
+                  </div>
+               </div>
+    
+            </div>
+           
+         </div>
+      </section>
+      <!--Home-->
+      <div class="home">
+         <div class="container">
+            <div class="row">
+               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-xs-center">
+                  <h2 class="h1">Giỏ Hàng Của Bạn</h2>
+               </div>
+               <div class="col-lg-12">
+                        <div >
+                            <table class="table">
+                                <thead>
+                                     <tr>
+                                        <th>Tên Sản Phẩm</th>
+                                        <th>Hình Ảnh</th>
+                                        <th>Giá</th>
+                                        <th>Số Lượng</th>
+                                        <th>Tổng Tiền</th>
+                                        <th>Xóa</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+
+                                    <tr>
+                                         <td class="">Trà Sữa Trân Châu</td>
+                                         <td class=""><img src="images/sp1.jpg" width=100px alt="tra_sua_tran_chau"></td>
+                                         <td class=""><p>50,000 VNĐ</p></td>
+                                         <td class=""><input type="number" value="1" style="width: 50px;"></td>
+                                         <td class=""><p>50,000 VNĐ</p></td>
+                                         <td class=""><i class="fas fa-times" style="cursor: pointer;">Hủy</i></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+               </div>
+            </div>
+         
+      </div>
+      <div class="home">
+         <div class="container">
+            <div class="row">
+               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-xs-center">
+                  <h2 class="h1">Thanh Toán</h2>
+               </div>
+               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h1>Thông Tin Cá Nhân </h1>
+               </div>
+                <div class="col-md-6">
+                    <div>Họ Tên Khách Hàng:<br/>
+                    <input type="text" name="hoten" border="10px solid" size="40"/></div><br/>
+                    <div>SDT:<br/>
+                    <input type="text" name="sdt" border="10px solid" size="40"/></div><br/>
+                </div>
+                <div class="col-md-6">
+                    <div>Email Khách Hàng:<br/>
+                    <input type="text" name="mail" border="10px solid" size="40"/></div><br/>
+                    <div>Địa Chỉ:<br/>
+                    <input type="text" name="address" border="10px solid" size="40"/></div><br/>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h1>Thông Tin Giao Hàng </h1>
+               </div>
+               <div class="col-md-6">
+                    <div>Ghi Chú:<br/>
+                    <textarea name="ghichu" border="10px solid" rows="5" cols="45"></textarea></div><br/>
+               </div>
+                <div class="col-md-6">
+                    <div>Hình Thức Thanh Toán:<br/>
+                    <input type="radio" id="tt1" name="tt" value="tt1">
+                    <label for="tt1">Thanh Toán Tại Nhà</label><br/>
+                    <input type="radio" id="tt2" name="tt" value="tt2">
+                    <label for="tt2"> Thanh Toán Trực Tuyến</label><br/>
+                    <div class="nice-select" tabindex="0">
+                      <span class="current">-- Chọn Ngân Hàng --</span>
+                      <ul class="list">
+                        <li class="option selected" data-value="ViettinBank">ViettinBank</li>
+                        <li class="option " data-value="Techcombank">Techcombank</li>
+                        <li class="option " data-value="Sacombank">Sacombank</li>
+                        <li class="option " data-value="MasterCard">MasterCard</li></ul></div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                  <a href="index.html"><button onclick="alert('Thanh Toán Thành Công')" class="btn">Thanh Toán</button></a>
+                </div>
+           </div>
+         </div>
+       </div>
+      <!--  footer --> 
+      <footr>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-2 col-md-6 col-sm-12 width media">
+                     <div class="address">
+                        <h3 align="center">Địa Chỉ</h3>
+                        <div class="address2">180 Cao Lỗ Phường 4 , Quận 8 , HCM </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-2 col-md-6 col-sm-12 width media">
+                     <div class="address">
+                        <h3 align="center">Giờ Mở Cửa</h3>
+                        <div class="address2">T2-T6: 10AM-11pm</div>
+                        <div class="address2">T7-CN: 11AM-2AM</div>
+                     </div>
+                  </div>
+                  <div class="col-lg-2 col-md-6 col-sm-12 width media">
+                     <div class="address">
+                        <h3 align="center">Truyền Thông</h3>
+                        <ul class="contant_icon">
+                           <li><a href="https://www.facebook.com/"><img src="icon/fb.png" alt="icon"/></a></li>
+                           <li><a href="https://twitter.com/?lang=vi"><img src="icon/tw.png" alt="icon"/></a></li>
+                           <li><a href="https://www.linkedin.com/"><img src="icon/lin (2).png" alt="icon"/></a></li>
+                           <li><a href="https://www.instagram.com/"><img src="icon/instagram.png" alt="icon"/></a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 width media">
+                     <div class="address">
+                        <h3 align="center">Liên Hệ </h3>
+                        <div class="address2">Phone:0708552053</div>
+                        <div class="address2">Email:dh51801425@student.stu.edu.vn</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            
+         </div>
+      </footr>
+      <!-- end footer -->
+      <!-- Javascript files--> 
+      <script src="js/jquery.min.js"></script> 
+      <script src="js/popper.min.js"></script> 
+      <script src="js/bootstrap.bundle.min.js"></script> 
+      <script src="js/jquery-3.0.0.min.js"></script> 
+      <script src="js/plugin.js"></script> 
+      <!-- sidebar --> 
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script> 
+      <script src="js/custom.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+      <script>
+         $(document).ready(function(){
+         $(".fancybox").fancybox({
+         openEffect: "none",
+         closeEffect: "none"
+         });
+         
+         $(".zoom").hover(function(){
+         
+         $(this).addClass('transition');
+         }, function(){
+         
+         $(this).removeClass('transition');
+         });
+         });
+         
+      </script> 
+   </body>
+</html>
